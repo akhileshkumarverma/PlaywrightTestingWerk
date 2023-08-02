@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 
- const selectors = {
+const selectors = {
     dayViewButton: "button[data-testid=day-view-button]",
     weekViewButton: "button[data-testid=week-view-button]",
     mechanicsViewButton: "button[data-testid=mechanics-button]",

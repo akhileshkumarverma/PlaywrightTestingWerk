@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { selectors as SloginPage, actionsForLoginPage } from '../pageObject/loginPage.po';
+import { actionsForLoginPage } from '../pageObject/loginPage.po';
 import loginData from '../../fixtures/loginData.json';
 import { CalendarPage } from '../pageObject/calendarPage.po';
 

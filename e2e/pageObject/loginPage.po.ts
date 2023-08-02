@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 
-export const selectors = {
+const selectors = {
     loginInput: "input[data-testid=email]",
     passwordInput: "input[data-testid=password]",
     loginButton: "button[data-testid=logInButton]",
