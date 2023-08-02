@@ -7,13 +7,10 @@ export const selectors = {
 }
 
 export const actionsForLoginPage = {
-    
     login: async function loginToWerk8(login: string, password: string, page: Page){
         await page.locator(selectors.loginInput).fill(login);
         await page.locator(selectors.passwordInput).type(password);
         await page.locator(selectors.loginButton).click();
     }
-
-
 }
 
